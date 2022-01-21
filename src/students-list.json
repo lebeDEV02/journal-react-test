@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "fullName": "Васильевна Анна Игоревна",
+    "mark": "5",
+    "absences": "5",
+    "points": "73",
+    "final_mark": "53"
+	},
+  {
+    "id": 2,
+    "fullName": "Васильевна Анна Игоревна",
+    "mark": "4",
+    "absences": "12",
+    "points": "44",
+    "final_mark": "44"
+  },
+  {
+    "id": 3,
+    "fullName": "Васильевна Анна Игоревна",
+    "mark": "3",
+    "absences": "33",
+    "points": "122",
+    "final_mark": "122"
+  },
+  {
+    "id": 4,
+    "fullName": "Алейникова Вероника Дмитриевна",
+    "mark": "Н",
+    "absences": "0",
+    "points": "33",
+    "final_mark": "33"
+  },
+  {
+    "id": 5,
+    "fullName": "Алейникова Вероника Дмитриевна",
+    "mark": "5",
+    "absences": "1",
+    "points": "212",
+    "final_mark": "212"
+  }
+]
