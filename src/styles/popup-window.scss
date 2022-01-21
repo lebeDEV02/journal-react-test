@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+//variables
+$manrope: 'Manrope', sans-serif;
+
+$accent-black: #2e2e3d;
+$main-black: #24252e;
+$main-grey: #7f8191;
+
+@mixin flex-element {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin label-styles {
+	color: $main-grey;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+@mixin bold-info-styles {
+	color: $accent-black;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+@mixin submit-button {
+	background: #7671dd;
+	box-shadow: 0px 27px 46px rgba(118, 113, 221, 0.12),
+		0px 8.13971px 13.8677px rgba(118, 113, 221, 0.0781907),
+		0px 3.38082px 5.75991px rgba(118, 113, 221, 0.06),
+		0px 1.22278px 2.08325px rgba(118, 113, 221, 0.0418093);
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	border: none;
+	padding: 18px 24px;
+	display: flex;
+	margin-left: auto;
+}
+.popup-window {
+	box-sizing: border-box;
+	padding: 20px;
+	font-family: $manrope;
+	color: $accent-black;
+	width: 700px;
+	&__title {
+		font-weight: 700;
+		line-height: 28px;
+		margin-bottom: 20px;
+		font-size: 24px;
+	}
+	&__student-info {
+		@include flex-element();
+	}
+	&__date-info {
+		@include flex-element();
+	}
+	&__activity-form {
+		display: flex;
+		flex-direction: column;
+		color: $main-black;
+		line-height: 24px;
+		justify-content: center;
+		label {
+			font-size: 15px;
+			display: flex;
+			align-items: center;
+		}
+		input {
+			margin-right: 10px;
+			width: 20px;
+			height: 20px;
+			border: 2px solid #c5c5c5;
+			box-sizing: border-box;
+			border-radius: 4px;
+		}
+	}
+	&__field-value {
+		border: 2px solid #f5f6fa;
+		box-sizing: border-box;
+		border-radius: 15px;
+		padding: 12px 20px 12px 15px;
+	}
+}
+
+.student-info {
+	&__label {
+		@include label-styles();
+	}
+	&__fullname {
+		@include bold-info-styles();
+	}
+}
+.date-info {
+	&__date {
+		@include label-styles();
+	}
+	&__time {
+		@include bold-info-styles();
+	}
+}
+
+.submit-button {
+	@include submit-button();
+}
