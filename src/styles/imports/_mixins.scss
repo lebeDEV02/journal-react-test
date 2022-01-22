@@ -1,0 +1,35 @@
+@mixin flex-element {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin label-styles {
+	color: $main-grey;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+@mixin bold-info-styles {
+	color: $accent-black;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+@mixin submit-button {
+	background: #7671dd;
+	box-shadow: 0px 27px 46px rgba(118, 113, 221, 0.12),
+		0px 8.13971px 13.8677px rgba(118, 113, 221, 0.0781907),
+		0px 3.38082px 5.75991px rgba(118, 113, 221, 0.06),
+		0px 1.22278px 2.08325px rgba(118, 113, 221, 0.0418093);
+	border-radius: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	border: none;
+	padding: 18px 24px;
+	display: flex;
+	margin-left: auto;
+}

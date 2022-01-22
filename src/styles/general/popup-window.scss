@@ -1,47 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+@import '../imports/fonts';
+@import '../imports/variables';
+@import '../imports/mixins';
 
-//variables
-$manrope: 'Manrope', sans-serif;
-
-$accent-black: #2e2e3d;
-$main-black: #24252e;
-$main-grey: #7f8191;
-
-@mixin flex-element {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-@mixin label-styles {
-	color: $main-grey;
-	font-size: 16px;
-	line-height: 26px;
-}
-
-@mixin bold-info-styles {
-	color: $accent-black;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 26px;
-}
-
-@mixin submit-button {
-	background: #7671dd;
-	box-shadow: 0px 27px 46px rgba(118, 113, 221, 0.12),
-		0px 8.13971px 13.8677px rgba(118, 113, 221, 0.0781907),
-		0px 3.38082px 5.75991px rgba(118, 113, 221, 0.06),
-		0px 1.22278px 2.08325px rgba(118, 113, 221, 0.0418093);
-	border-radius: 20px;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 26px;
-	color: #ffffff;
-	border: none;
-	padding: 18px 24px;
-	display: flex;
-	margin-left: auto;
-}
 .popup-window {
 	box-sizing: border-box;
 	padding: 20px;
@@ -85,6 +45,22 @@ $main-grey: #7f8191;
 		box-sizing: border-box;
 		border-radius: 15px;
 		padding: 12px 20px 12px 15px;
+	}
+	&__polygon {
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		top: 42px;
+		color: $white;
+		font-size: 24px;
+		&-left {
+			left: -25px;
+			transform: rotate(-90deg);
+		}
+		&-right {
+			transform: rotate(90deg);
+			right: -24px;
+		}
 	}
 }
 

@@ -5,23 +5,23 @@
     "mark": "5",
     "absences": "5",
     "points": "73",
-    "final_mark": "53"
+    "final_mark": "99"
 	},
   {
     "id": 2,
-    "fullName": "Васильевна Анна Игоревна",
+    "fullName": "Смирнова Ольга Владимирова",
     "mark": "4",
     "absences": "12",
     "points": "44",
-    "final_mark": "44"
+    "final_mark": "66"
   },
   {
     "id": 3,
-    "fullName": "Васильевна Анна Игоревна",
+    "fullName": "Сидоров Иван Петрович",
     "mark": "3",
     "absences": "33",
     "points": "122",
-    "final_mark": "122"
+    "final_mark": "85"
   },
   {
     "id": 4,
@@ -29,14 +29,14 @@
     "mark": "Н",
     "absences": "0",
     "points": "33",
-    "final_mark": "33"
+    "final_mark": "67"
   },
   {
     "id": 5,
-    "fullName": "Алейникова Вероника Дмитриевна",
+    "fullName": "Берсенёв Артур Викторович",
     "mark": "5",
     "absences": "1",
     "points": "212",
-    "final_mark": "212"
+    "final_mark": "111"
   }
 ]
